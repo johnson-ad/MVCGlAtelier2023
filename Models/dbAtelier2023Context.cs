@@ -12,6 +12,6 @@ namespace MVCGlAtelier2023.Models
         {
         }
 
-        //public DbSet<Personne> personnes { get; set; }
+        public DbSet<Personne> personnes { get; set; }
     }
 }
