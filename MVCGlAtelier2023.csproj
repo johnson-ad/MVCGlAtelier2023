@@ -170,6 +170,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InscriptionController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\PersonnesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -177,7 +178,9 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Client.cs" />
     <Compile Include="Models\dbAtelier2023Context.cs" />
+    <Compile Include="Models\Gerant.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Personne.cs" />
@@ -421,6 +424,7 @@
     <Content Include="Views\Personnes\Details.cshtml" />
     <Content Include="Views\Personnes\Edit.cshtml" />
     <Content Include="Views\Personnes\Index.cshtml" />
+    <Content Include="Views\Inscription\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
